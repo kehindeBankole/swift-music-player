@@ -57,7 +57,6 @@ struct PlayMusicView: View {
             }
             
             ProgressView(value: timeSpent, total:myAudio.getDuration().isNaN  ? 100 : myAudio.getDuration().rounded(.up)).id(currentMusic).onReceive(timer.throttle(for: 1, scheduler: RunLoop.main, latest: false)){ data in
-                print(data)
                 if(isPlay && timeSpent != myAudio.getDuration().rounded(.up)){
                     timeSpent+=1
                 }
@@ -90,7 +89,6 @@ struct PlayMusicView: View {
                     }
                     
                     isPlay.toggle()
-                    print(myAudio.getDuration())
                 }, label: {
                     
                     Image(systemName: isPlay  && timeSpent != myAudio.getDuration().rounded(.up) ? "pause" : "play")
