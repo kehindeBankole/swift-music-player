@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45CFE0872B666B870047BB30 /* PlayMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFE0862B666B870047BB30 /* PlayMusicView.swift */; };
+		45CFE08A2B667B940047BB30 /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CFE0892B667B940047BB30 /* audioPlayer.swift */; };
 		45E9DD1C2B63B4BE00D27F3E /* music_playerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9DD1B2B63B4BE00D27F3E /* music_playerApp.swift */; };
 		45E9DD1E2B63B4BE00D27F3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9DD1D2B63B4BE00D27F3E /* ContentView.swift */; };
 		45E9DD202B63B4BF00D27F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E9DD1F2B63B4BF00D27F3E /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45CFE0862B666B870047BB30 /* PlayMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicView.swift; sourceTree = "<group>"; };
+		45CFE0892B667B940047BB30 /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
 		45E9DD182B63B4BE00D27F3E /* music-player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music-player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E9DD1B2B63B4BE00D27F3E /* music_playerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_playerApp.swift; sourceTree = "<group>"; };
 		45E9DD1D2B63B4BE00D27F3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45CFE0882B667AF80047BB30 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
 		45E9DD0F2B63B4BE00D27F3E = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +66,7 @@
 		45E9DD1A2B63B4BE00D27F3E /* music-player */ = {
 			isa = PBXGroup;
 			children = (
+				45CFE0882B667AF80047BB30 /* songs */,
 				45E9DD2C2B641E4800D27F3E /* view */,
 				45E9DD292B641DE300D27F3E /* utils */,
 				45E9DD1B2B63B4BE00D27F3E /* music_playerApp.swift */,
@@ -77,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				45E9DD2A2B641DF400D27F3E /* Color.swift */,
+				45CFE0892B667B940047BB30 /* audioPlayer.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -85,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				45E9DD2D2B641E5800D27F3E /* Music.swift */,
+				45CFE0862B666B870047BB30 /* PlayMusicView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -160,7 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E9DD1E2B63B4BE00D27F3E /* ContentView.swift in Sources */,
+				45CFE0872B666B870047BB30 /* PlayMusicView.swift in Sources */,
 				45E9DD1C2B63B4BE00D27F3E /* music_playerApp.swift in Sources */,
+				45CFE08A2B667B940047BB30 /* audioPlayer.swift in Sources */,
 				45E9DD2B2B641DF400D27F3E /* Color.swift in Sources */,
 				45E9DD2E2B641E5800D27F3E /* Music.swift in Sources */,
 			);

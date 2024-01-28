@@ -12,4 +12,5 @@ import SwiftUI
 extension Color {
 static let background = Color("bg")
 static let musicBlack = Color("customBlack")
+    static let musicPurple = Color("customPurple")
 }
